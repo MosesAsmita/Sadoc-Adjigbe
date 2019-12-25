@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+.profile {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.avatar-img {
+  width: 25%;
+}
+
+.monitor-img {
+  width: 20%;
+  float: left;
+  margin-left: 25px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 150%;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 100%;
+  text-align: center;
+  line-height: 2;
+}
+
+.star{
+  font-size: 200%;
+  display: inline-block;
+  color: black;
+}
+
+span{
+  color: gold;
+}
+
+hr {
+  width: 10%;
+  height: 0;
+  border-top: dotted 10px;
+}
+
+.skill-row-desc {
+  text-align: right;
+}
+
+.code-img {
+  width: 20%;
+  float: right;
+  margin-left: 25px;
+}
+
+a{
+  font-size: 15px;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+footer{
+  background-color: #EAF6F6;
+  margin: 0;
+  height: 200px;
+  text-align: center;
+}
+
+.copyright{
+  position: relative;
+  top: 100px;
+  font-size: 50%;
+
+}
+
+.button{
+  margin-bottom: 25px;
+  color: green;
+}
+
+.help{
+  font-size: 50%;
+}
+
+
+.header{
+height: 140px;
+background-color: #EAF6F6;
+margin: 0 auto 0 auto;
+}
+
+li{
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+ul li{
+  width:50%;
+}
+
+.header-avatar-img{
+  width: 8%;
+  margin-top: 15px;
+  margin-right: 350px;
+}
+
+.link{
+  display: inline-block;
+}
+
+
+.styled {
+    border: 0;
+    line-height: 2;
+    padding: 5px 12px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: RGBA(0, 140, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      RGBA(0, 0, 0, .2),
+                                      RGBA(0, 0, 0, .2) 30%,
+                                      RGBA(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px RGBA(255, 255, 255, .6),
+                inset -2px -2px 3px RGBA(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: RGBA(0, 255, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
